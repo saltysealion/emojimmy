@@ -14,7 +14,7 @@ module Emojimmy
 
           # When calling the attribute name, convert its value
           def #{attribute}
-            Emojimmy.token_to_emoji(attribute)
+            Emojimmy.token_to_emoji(#{attribute})
           end
         RUBY
       end
